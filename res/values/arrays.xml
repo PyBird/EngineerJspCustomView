@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="custom_view">
+        
+        <item>ToggleButton</item>
+        <item>SlideSwitchView</item>
+        <item>RoundProgressBar</item>
+        <item>Handler and Thread Communicate</item>
+        
+    </string-array>
+   
+</resources>

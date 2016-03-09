@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android_custom="http://schemas.android.com/apk/res/com.example.engineerjspcustomview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+        
+
+      <custom.view.RoundProgressBar
+        android:id="@+id/roundProgressBar"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android_custom:roundColor="#ccffff"
+        android:layout_centerInParent="true"
+        android_custom:roundWidth="30dp"
+        android_custom:roundProgressColor="#006EA9"
+        android_custom:textIsDisplayable="false" />
+    
+</RelativeLayout>
